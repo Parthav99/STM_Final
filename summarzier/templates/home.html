@@ -1,0 +1,15 @@
+
+    {% extends 'base.html' %}
+    {% block content %}
+    <div class="welcome-text">
+        <h1>WE ARE <span>SumEz</span></h1>
+        <br>
+    <br>
+    <a href="{% url 'extract_page' %}">Extractive Summarizer</a><br>
+    <a href="{% url 'transcript' %}">Abstractive Summarizer</a><br>
+    <a href="{% url 'audio_page' %}">Audio Transcripter </a>
+    </div>
+
+    {% endblock content%}
+
+
